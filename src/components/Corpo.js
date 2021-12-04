@@ -156,13 +156,10 @@ export default function Corpo() {
         </div>
 
         <div class="sidebar">
-          <div class="usuario">
-            <img src="assets/img/catanacomics.svg" />
-            <div class="texto">
-              <strong>catanacomics</strong>
-              Catana
-            </div>
-          </div>
+            <Usuario 
+                src="assets/img/catanacomics.svg"
+                username="catanacomics"
+                name="Catana"/>
 
           <div class="sugestoes">
             <div class="titulo">
@@ -241,4 +238,21 @@ export default function Corpo() {
         </div>
       </div>
     );
+}
+
+
+function Usuario(props) {
+    const src = props.src;
+    const username = props.username;
+    const name = props.name;
+
+    return (
+      <div class="usuario">
+        <img src={src} />
+        <div class="texto">
+          <strong>{username}</strong>
+          {name}
+        </div>
+      </div>
+    )
 }
