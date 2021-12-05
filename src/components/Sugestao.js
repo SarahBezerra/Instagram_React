@@ -1,5 +1,5 @@
 export default function Sugestao() {
-    const sugestoes = [
+    const info_sugestoes = [
         {src:"assets/img/bad.vibes.memes.svg", nome:"bad.vibes.memes", razao:"Segue você"},
         {src:"assets/img/chibirdart.svg", nome:"chibirdart", razao:"Segue você"},
         {src:"assets/img/razoesparaacreditar.svg", nome:"razoesparaacreditar", razao:"Novo no Instagram"},
@@ -8,7 +8,7 @@ export default function Sugestao() {
     ];
 
     return (
-        sugestoes.map(infos => 
+        info_sugestoes.map(infos => 
           <div class="sugestao">
             <div class="usuario">
 
