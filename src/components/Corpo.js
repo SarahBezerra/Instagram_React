@@ -1,21 +1,21 @@
-import Sugestao from "./Sugestao";
-import Storie from "./Storie";
-import Post from "./Post";
+import Stories from "./Stories";
+import Posts from "./Posts";
 import Usuario from "./Usuario";
+import Sugestoes from "./Sugestoes";
 
 export default function Corpo() {
     return (
       <div class="corpo">
         <div class="esquerda">
           <div class="stories">
-            <Storie />
+            <Stories />
             <div class="setinha">
               <ion-icon name="chevron-forward-circle"></ion-icon>
             </div>
           </div>
 
           <div class="posts">
-            <Post />
+            <Posts />
           </div>
         </div>
 
@@ -31,7 +31,7 @@ export default function Corpo() {
               <div>Ver tudo</div>
             </div>
 
-            <Sugestao />
+            <Sugestoes />
           </div>
 
           <div class="links">

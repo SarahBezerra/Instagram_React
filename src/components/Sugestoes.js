@@ -1,4 +1,4 @@
-export default function Sugestao() {
+export default function Sugestoes() {
     const info_sugestoes = [
         {src:"assets/img/bad.vibes.memes.svg", nome:"bad.vibes.memes", razao:"Segue você"},
         {src:"assets/img/chibirdart.svg", nome:"chibirdart", razao:"Segue você"},

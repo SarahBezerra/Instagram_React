@@ -1,4 +1,4 @@
-export default function Storie() {
+export default function Stories() {
     const infos_storie = [
         {src:"assets/img/9gag.svg", usuario:"9gag"},
         {src:"assets/img/meowed.svg", usuario:"meowed"},

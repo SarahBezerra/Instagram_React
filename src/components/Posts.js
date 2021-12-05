@@ -1,4 +1,4 @@
-export default function Post() {
+export default function Posts() {
     const infos_post = [
         {topo:{img:"assets/img/meowed.svg", nome:"meowed"}, img_conteudo:"assets/img/gato-telefone.svg", curtidas:{img:"assets/img/respondeai.svg", nome:"respondeai", qtdd:"outras 101.523 pessoas"}},
         {topo:{img:"assets/img/barked.svg", nome:"barked"}, img_conteudo:"assets/img/dog.svg", curtidas:{img:"assets/img/adorable_animals.svg", nome:"adorable_animals", qtdd:"outras 99.159 pessoas"}},
