@@ -1,19 +1,22 @@
+import Logo from "./Logo";
+import LogoMini from "./LogoMini";
+
 export default function Navbar() {
     return (
         <div class="navbar">
             <div class="container">
                 <div class="logo">
-                    <ion-icon name="logo-instagram"></ion-icon>
+                    <LogoMini />
                     <div class="separador"></div>
-                    <img src="assets/img/logo.png" />
+                    <Logo />
                 </div>
 
                 <div class="logo-mobile">
-                    <ion-icon name="logo-instagram"></ion-icon>
+                    <LogoMini />
                 </div>
 
                 <div class="instagram-mobile">
-                    <img src="assets/img/logo.png" />
+                    <Logo />
                 </div>
         
                 <div class="pesquisa">

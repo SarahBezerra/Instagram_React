@@ -1,7 +1,7 @@
 export default function Posts() {
     const infos_post = [
-        {topo:{img:"assets/img/meowed.svg", nome:"meowed"}, img_conteudo:"assets/img/gato-telefone.svg", curtidas:{img:"assets/img/respondeai.svg", nome:"respondeai", qtdd:"outras 101.523 pessoas"}},
-        {topo:{img:"assets/img/barked.svg", nome:"barked"}, img_conteudo:"assets/img/dog.svg", curtidas:{img:"assets/img/adorable_animals.svg", nome:"adorable_animals", qtdd:"outras 99.159 pessoas"}},
+        {topo:{img:"meowed.svg", nome:"meowed"}, img_conteudo:"gato-telefone.svg", curtidas:{img:"respondeai.svg", nome:"respondeai", qtdd:"outras 101.523 pessoas"}},
+        {topo:{img:"barked.svg", nome:"barked"}, img_conteudo:"dog.svg", curtidas:{img:"adorable_animals.svg", nome:"adorable_animals", qtdd:"outras 99.159 pessoas"}},
     ];
 
     return(
@@ -9,7 +9,7 @@ export default function Posts() {
             <div class="post">
                 <div class="topo">
                     <div class="usuario">
-                        <img src={infos.topo.img} />
+                        <img src={`assets/img/${infos.topo.img}`} />
                         {infos.topo.nome}
                     </div>
                     <div class="acoes">
@@ -18,7 +18,7 @@ export default function Posts() {
                 </div>
 
                 <div class="conteudo">
-                    <img src={infos.img_conteudo} />
+                    <img src={`assets/img/${infos.img_conteudo}`} />
                 </div>
 
                 <div class="fundo">
@@ -34,7 +34,7 @@ export default function Posts() {
                     </div>
 
                     <div class="curtidas">
-                        <img src={infos.curtidas.img} />
+                        <img src={`assets/img/${infos.curtidas.img}`} />
                         <div class="texto">
                             Curtido por <strong>{infos.curtidas.nome}</strong> e <strong>{infos.curtidas.qtdd}</strong>
                         </div>
