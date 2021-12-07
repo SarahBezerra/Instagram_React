@@ -17,14 +17,7 @@ export default function Corpo() {
                 username="catanacomics"
                 name="Catana"/>
 
-          <div class="sugestoes">
-            <div class="titulo">
-              Sugestões para você
-              <div>Ver tudo</div>
-            </div>
-
             <Sugestoes />
-          </div>
 
           <div class="links">
             Sobre • Ajuda • Imprensa • API • Carreiras • Privacidade • Termos • Localizações • Contas mais relevantes • Hashtags • Idioma

@@ -1,27 +1,39 @@
 export default function Sugestoes() {
     const info_sugestoes = [
-        {src:"assets/img/bad.vibes.memes.svg", nome:"bad.vibes.memes", razao:"Segue você"},
-        {src:"assets/img/chibirdart.svg", nome:"chibirdart", razao:"Segue você"},
-        {src:"assets/img/razoesparaacreditar.svg", nome:"razoesparaacreditar", razao:"Novo no Instagram"},
-        {src:"assets/img/adorable_animals.svg", nome:"adorable_animals", razao:"Segue você"},
-        {src:"assets/img/smallcutecats.svg", nome:"smallcutecats", razao:"Segue você"},
+        {imagem:"assets/img/bad.vibes.memes.svg", nome:"bad.vibes.memes", situacao:"Segue você"},
+        {imagem:"assets/img/chibirdart.svg", nome:"chibirdart", situacao:"Segue você"},
+        {imagem:"assets/img/razoesparaacreditar.svg", nome:"razoesparaacreditar", situacao:"Novo no Instagram"},
+        {imagem:"assets/img/adorable_animals.svg", nome:"adorable_animals", situacao:"Segue você"},
+        {imagem:"assets/img/smallcutecats.svg", nome:"smallcutecats", situacao:"Segue você"},
     ];
 
     return (
-        info_sugestoes.map(infos => 
-          <div class="sugestao">
-            <div class="usuario">
+      <div class="sugestoes">
+        <div class="titulo">
+          Sugestões para você
+          <div>Ver tudo</div>
+        </div>
 
-            <img src={infos.src} />
-            <div class="texto">
-                <div class="nome">{infos.nome}</div>
-                <div class="razao">{infos.razao}</div>
-            </div>
-            </div>
-
-            <div class="seguir">Seguir</div>
-          </div>
-        )         
+        {info_sugestoes.map(infos => <Sugestao imagem={infos.imagem} nome={infos.nome} situacao={infos.situacao} />)}
+      </div>
     );
     
+}
+
+
+function Sugestao(porps) {
+  return(
+    <div class="sugestao">
+      <div class="usuario">
+
+      < img src={porps.imagem} />
+        <div class="texto">
+          <div class="nome">{porps.nome}</div>
+          <div class="razao">{porps.situacao}</div>
+        </div>
+      </div>
+
+      <div class="seguir">Seguir</div>
+    </div>
+  );
 }
