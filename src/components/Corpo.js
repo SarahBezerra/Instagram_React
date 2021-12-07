@@ -8,10 +8,7 @@ export default function Corpo() {
       <div class="corpo">
         <div class="esquerda">
             <Stories />
-
-          <div class="posts">
             <Posts />
-          </div>
         </div>
 
         <div class="sidebar">
