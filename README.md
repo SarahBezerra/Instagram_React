@@ -3,7 +3,7 @@
 <p float="left">
 <img src="https://user-images.githubusercontent.com/48498099/150577598-ebcdf1ea-ea0c-4738-a09b-6b4b3059afaf.png" alt="Imagem: Instagram Desktop" width="678px" height="368px" />
 <img src="https://user-images.githubusercontent.com/48498099/150577601-2b84c6fc-4a42-4602-a904-e7315b923c7a.png" alt="Imagem: Instagram Tablet" width="321px" height="366px" />
-<img src="https://user-images.githubusercontent.com/48498099/150577602-ec4c0fac-8b81-4e01-ac72-b9c09bc006a6.png" alt="Imagem: Instagram Mobile" width="484px" height="826px" />
+<img src="https://user-images.githubusercontent.com/48498099/150577602-ec4c0fac-8b81-4e01-ac72-b9c09bc006a6.png" alt="Imagem: Instagram Mobile" width="215px" height="367px" />
 </p>
 
 Se quiser ver o deploy do projeto, [clique aqui](https://instagram-react-ten.vercel.app/)
