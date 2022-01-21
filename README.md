@@ -1,23 +1,23 @@
 
 
-![Screenshot from 2022-01-21 14-52-05_2](https://user-images.githubusercontent.com/48498099/150577598-ebcdf1ea-ea0c-4738-a09b-6b4b3059afaf.png)
-![Screenshot from 2022-01-21 14-52-31_2](https://user-images.githubusercontent.com/48498099/150577601-2b84c6fc-4a42-4602-a904-e7315b923c7a.png)
-![Screenshot from 2022-01-21 14-53-15_3](https://user-images.githubusercontent.com/48498099/150577602-ec4c0fac-8b81-4e01-ac72-b9c09bc006a6.png)
+![Screenshot from 2022-01-21 14-52-05_2]()
+![Screenshot from 2022-01-21 14-52-31_2]()
+![Screenshot from 2022-01-21 14-53-15_3]()
 
 # Instagram
 
 <p float="left">
-<img src="" alt="Imagem: Instagram" width="px" height="px" />
-<img src="" alt="Imagem: Instagram" width="px" height="px" />
-<img src="" alt="Imagem: Instagram" width="px" height="px" />
+<img src="https://user-images.githubusercontent.com/48498099/150577598-ebcdf1ea-ea0c-4738-a09b-6b4b3059afaf.png" alt="Imagem: Instagram Desktop" width="508px" height="276px" />
+<img src="https://user-images.githubusercontent.com/48498099/150577601-2b84c6fc-4a42-4602-a904-e7315b923c7a.png" alt="Imagem: Instagram Tablet" width7="px" height="px" />
+<img src="https://user-images.githubusercontent.com/48498099/150577602-ec4c0fac-8b81-4e01-ac72-b9c09bc006a6.png" alt="Imagem: Instagram Mobile" width="px" height="px" />
 </p>
 
 Se quiser ver o deploy do projeto, [clique aqui](https://instagram-react-ten.vercel.app/)
 
 ## Sobre o Projeto
 
-Layout do Instagram (ainda não possui implementação de quaisquer funcionalidades)
-Focado em aprimorar técnicas de responsividade e componentização.
+- Layout do Instagram (ainda não possui implementação de quaisquer funcionalidades)
+- Focado em aprimorar técnicas de responsividade e componentização.
 
 ## Tecnologias
 
