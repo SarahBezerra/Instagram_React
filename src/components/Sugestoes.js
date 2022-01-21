@@ -8,32 +8,32 @@ export default function Sugestoes() {
     ];
 
     return (
-      <div class="sugestoes">
-        <div class="titulo">
+      <div className="sugestoes">
+        <div className="titulo">
           Sugestões para você
           <div>Ver tudo</div>
         </div>
 
-        {info_sugestoes.map(infos => <Sugestao imagem={infos.imagem} nome={infos.nome} situacao={infos.situacao} />)}
+        {info_sugestoes.map(infos => <Sugestao imagem={infos.imagem} nome={infos.nome} situacao={infos.situacao} key={infos.nome} />)}
       </div>
     );
     
 }
 
 
-function Sugestao(porps) {
+function Sugestao(props) {
   return(
-    <div class="sugestao">
-      <div class="usuario">
+    <div className="sugestao">
+      <div className="usuario">
 
-      < img src={porps.imagem} />
-        <div class="texto">
-          <div class="nome">{porps.nome}</div>
-          <div class="razao">{porps.situacao}</div>
+      <img src={props.imagem} alt={props.nome} />
+        <div className="texto">
+          <div className="nome">{props.nome}</div>
+          <div className="razao">{props.situacao}</div>
         </div>
       </div>
 
-      <div class="seguir">Seguir</div>
+      <div className="seguir">Seguir</div>
     </div>
   );
 }

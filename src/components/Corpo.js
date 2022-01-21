@@ -5,12 +5,12 @@ import InformacoesAdicionais from "./InformacoesAdicionais";
 
 export default function Corpo() {
     return (
-      <div class="corpo">
-        <div class="esquerda">
+      <div className="corpo">
+        <div className="esquerda">
             <Feed />
         </div>
 
-        <div class="sidebar">
+        <div className="sidebar">
             <Usuario src="assets/img/catanacomics.svg" username="catanacomics" name="Catana"/>
             <Sugestoes />
             <InformacoesAdicionais />

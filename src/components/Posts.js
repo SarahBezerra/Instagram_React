@@ -5,13 +5,13 @@ export default function Posts() {
     ];
 
     return (
-        <div class="posts">
+        <div className="posts">
             {infos_post.map((post) => <Post imagemTopo={post.topo.img}
                                         nomeTopo={post.topo.nome}
                                         imagemPostada={post.img_conteudo} 
                                         fotoCurtidas={post.curtidas.img} 
                                         usuarioCutidas={post.curtidas.nome} 
-                                        qtddCurtidas={post.curtidas.qtdd} />)}
+                                        qtddCurtidas={post.curtidas.qtdd} key={post.topo.nome} />)}
         </div>
     )
 }
@@ -20,23 +20,23 @@ export default function Posts() {
 function Post(props) {
 
     return(
-        <div class="post">
-            <div class="topo">
-                <div class="usuario">
-                    <img src={`assets/img/${props.imagemTopo}`} />
+        <div className="post">
+            <div className="topo">
+                <div className="usuario">
+                    <img src={`assets/img/${props.imagemTopo}`} alt="" />
                     {props.nomeTopo}
                 </div>
-                <div class="acoes">
+                <div className="acoes">
                     <ion-icon name="ellipsis-horizontal"></ion-icon>
                 </div>
             </div>
 
-            <div class="conteudo">
-                <img src={`assets/img/${props.imagemPostada}`} />
+            <div className="conteudo">
+                <img src={`assets/img/${props.imagemPostada}`} alt="" />
             </div>
 
-            <div class="fundo">
-                <div class="acoes">
+            <div className="fundo">
+                <div className="acoes">
                     <div>
                         <ion-icon name="heart-outline"></ion-icon>
                         <ion-icon name="chatbubble-outline"></ion-icon>
@@ -47,9 +47,9 @@ function Post(props) {
                     </div>
                 </div>
 
-                <div class="curtidas">
-                    <img src={`assets/img/${props.fotoCurtidas}`} />
-                    <div class="texto">
+                <div className="curtidas">
+                    <img src={`assets/img/${props.fotoCurtidas}`} alt="" />
+                    <div className="texto">
                         Curtido por <strong>{props.usuarioCurtidas}</strong> e <strong>{props.qtddCurtidas}</strong>
                     </div>
                 </div>

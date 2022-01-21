@@ -1,4 +1,4 @@
 export default function Logo() {
     
-    return <img src="assets/img/logo.png" />
+    return <img src="assets/img/logo.png" alt=""/>
 }
